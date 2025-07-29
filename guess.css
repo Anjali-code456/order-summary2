@@ -1,0 +1,188 @@
+/* .main{
+    height: 85dvh;
+    width: 95dvw;
+    background-color: mediumpurple;
+    border-width:1rem ;
+    border-style:solid;
+    border-color: #29AB87;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    
+
+}
+.guess{
+    width:32dvw;
+    height: 10dvh;
+    background-color: whitesmoke;
+    border-style: double;
+    border-color: #317873;
+    border-width: 2rem;align-items: center;
+    box-shadow: #317873;
+    justify-content: center;
+    font-size: 1.5em;
+    font-style: oblique;
+    animation:reverse;
+    margin-left: 35%;
+    box-shadow: 2px;
+    padding: 3px;
+    color:#1B4D3E;
+
+
+}
+.guess:hover{
+    animation:reverse;
+}
+.area{
+    width:47dvw;
+    height: 40dvh;
+    background-color: none;
+    border-style:dashed;
+    border-width: 1rem;
+    margin-left: 30%;
+    margin-top: 4%;
+    border-color:rgb(18, 79, 42);
+
+
+}
+.input{
+    width: 43dvw;
+    height: 6dvh;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin:3%;
+}
+.output{
+    width: 43dvw;
+    height: 16dvh;
+    border-color:rgb(193, 233, 112);
+    border-width: 1px;
+    border-style: solid;
+    margin:3%;
+}
+.intro{
+    width: 98.5dvw;
+    height: 35dvh;
+    background-color: black;
+    font-size: 3rem;
+    font-style: oblique;
+    font-weight: bold;
+    color:greenyellow ;
+    border: 2px;
+    border-style: double;
+    border-color:darkgray;
+    border-width: 2em;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: none;
+    position: cover;
+}
+#but{
+    align-self: left;
+    margin-left:15px ;
+    background-color: #00A693;
+    
+} */
+
+
+
+/* practice krsh */
+
+*{
+    padding: 0;
+    margin:0;
+}
+header{
+    border:2px solid green;
+    height:96px;
+    /* text-decoration: none; */
+    font-size: 1.5em;
+    margin: 4px;
+
+}
+nav{
+    display: flex;
+    gap:10px;
+    /* text-decoration: none; */
+
+}
+span{
+    color:rgb(0, 0, 255);
+    font-weight: bold;
+}
+.list{
+    display: flex;
+    text-decoration: none;
+    box-shadow: 3px solid yellow;
+    align-items: center;
+    justify-content: center;
+    gap:13px;
+    list-style: none;
+    box-shadow: 2px 3px 4px solid red;;
+}
+    
+.list li{
+    border-radius:10px;
+    outline:1px solid red;
+    border-color: black;
+    text-decoration: none;
+    outline:2px solid purple;
+    padding:3px 3px;
+    background-color: transparent;
+    box-shadow:  2px 3px 4px solid sienna;
+
+
+
+}
+.list li:hover{
+    background-color: purple;
+    color:white;
+    cursor: pointer;
+    transition: 1s;
+    border-color: mediumaquamarine;
+    box-shadow: 10em solid red;
+}
+
+.logo{
+    font-size: 1.8em;
+    border:2px solid pink;
+    border-radius: 20px;
+    padding: 2px;
+    outline:1px solid gold;
+    margin-right:25%;
+    box-shadow:3px 4px 5px solid black;
+    margin-top: 5px;
+    animation-name: example;
+    animation-duration: 3s;
+
+    
+
+}
+
+.navbar{
+    gap:10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    border:2px solid rgb(0, 123, 255);;
+    background-color:rgb(0, 0, 255) ;
+    color:whitesmoke;
+    border-radius: 10px;
+    box-shadow:  purple;
+    padding: 2px;
+    margin-right:2%;
+    box-shadow: 2px 10px 25px solid black;
+}
+.btn:hover{
+    background-color: rgb(235, 235, 232);
+    color:black;
+    cursor: pointer;
+    transition: 1s;
+    border-color: mediumaquamarine;
+    box-shadow: 10em solid red;
+}
